@@ -7,7 +7,7 @@
 3. `ha_read_test.py`：主备倒换场景下的无限循环读取测试
 
 ## 使用前提
-1. 安装依赖：`pip install psycopg2  python-dotenv`
+1. 安装依赖：` psycopg2  python-dotenv`
 
 2. 配置数据库连接：修改脚本中的DB_CONFIG或创建.env文件
 
@@ -32,3 +32,8 @@ python3 ha_read_test.py
 
 ```
 
+## 使用Python通过psycopg2库连接数据库
+
+使用前需了解如何使用Python通过psycopg2库连接数据库
+
+https://kiraster.pages.dev/posts/cea66595.html/#python%E4%BD%BF%E7%94%A8psycopg2%E5%BA%93%E8%BF%9E%E6%8E%A5
